@@ -1,0 +1,43 @@
+.storyLine {
+    display: flex;
+}
+
+.words {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wordsSelect {
+    margin: 3%;
+}
+
+.adjStyle {
+    background-color: yellow;
+}
+
+.subStyle {
+    background-color: cadetblue;
+}
+
+.verStyle {
+    background-color: lightcoral;
+}
+
+.styleAdj {
+    border-radius: 50%;
+    background-color: yellow;
+    width: fit-content;
+    height: fit-content;
+}
+.styleSub {
+    border-radius: 50%;
+    background-color: cadetblue;
+    width: fit-content;
+    height: fit-content;
+}
+.styleVer {
+    border-radius: 50%;
+    background-color: lightcoral;
+    width: fit-content;
+    height: fit-content;
+}
