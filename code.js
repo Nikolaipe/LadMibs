@@ -2,24 +2,17 @@ let currentAdj = document.getElementById('adjToChange')
 let currentSub = document.getElementById('subToChange')
 let currentVer = document.getElementById('verToChange')
 
-let changeAdj = ''
-let changeSub = ''
-let changeVer = ''
-
-
-
 function adj(selected) {
-    changeAdj = selected.innerHTML;
-    currentAdj.innerHTML = changeAdj;
+    currentAdj.innerHTML = selected.innerHTML;
+    
 }
 
 function sub(selected) {
-    changeSub = selected.innerHTML;
-    currentSub.innerHTML = changeSub;
+    currentSub.innerHTML  = selected.innerHTML;
 }
 
 function ver(selected) {
-    changeVer = selected.innerHTML;
-    currentVer.innerHTML = changeVer;
+    currentVer.innerHTML = selected.innerHTML;
+    
     
 }

@@ -3,6 +3,7 @@
 }
 
 .words {
+    user-select: none;
     display: flex;
     flex-wrap: wrap;
 }
